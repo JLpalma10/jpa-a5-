@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Overview | Dashboard Kit</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <section class="app-wrapper">
+
+    <aside class="sidebar">
+
+      <!-- Sidebar header — same height as top-header to align -->
+      <figure class="sidebar-logo">
+        <span class="logo-icon">D</span>
+        <figcaption class="logo-text">Dashboard Kit</figcaption>
+      </figure>
+
+      <nav class="sidebar-nav" aria-label="Primary navigation">
+        <ul class="list-unstyled mb-0">
+
+          <li class="nav-item active">
+            <a href="#" class="nav-link-item">
+              <img src="assets/image/overview.svg" alt="" aria-hidden="true" class="nav-icon" />
+              <span>Overview</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link-item">
+              <img src="assets/image/tickets.svg" alt="" aria-hidden="true" class="nav-icon" />
+              <span>Tickets</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link-item">
+              <img src="assets/image/ideas.svg" alt="" aria-hidden="true" class="nav-icon" />
+              <span>Ideas</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link-item">
+              <img src="assets/image/contacts.svg" alt="" aria-hidden="true" class="nav-icon" />
+              <span>Contacts</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link-item">
+              <img src="assets/image/agents.svg" alt="" aria-hidden="true" class="nav-icon" />
+              <span>Agents</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link-item">
+              <img src="assets/image/articles.svg" alt="" aria-hidden="true" class="nav-icon" />
+              <span>Articles</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <ul class="list-unstyled sidebar-bottom mb-0">
+
+          <li class="nav-item">
+            <a href="#" class="nav-link-item">
+              <img src="assets/image/settings.svg" alt="" aria-hidden="true" class="nav-icon" />
+              <span>Settings</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link-item">
+              <img src="assets/image/subsciption.svg" alt="" aria-hidden="true" class="nav-icon" />
+              <span>Subscription</span>
+            </a>
+          </li>
+
+        </ul>
+      </nav>
+
+    </aside>
+
+    <section class="main-area">
+
+      <header class="top-header">
+        <h1 class="page-title">Overview</h1>
+
+        <nav class="header-right" aria-label="Header actions">
+          <span class="icon-btn" aria-label="Search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+            </svg>
+          </span>
+          <span class="icon-btn position-relative" aria-label="Notifications">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/>
+            </svg>
+            <span class="notif-dot" aria-hidden="true"></span>
+          </span>
+          <hr class="header-divider" aria-hidden="true" />
+          <span class="user-name">Louis Jerome</span>
+          <img src="assets/image/doggy.jpg" alt="Louis Jerome" class="user-avatar" />
+        </nav>
+      </header>
+
+      <main class="content p-4">
+
+        <section class="row g-3 mb-4" aria-label="Ticket statistics">
+
+          <article class="col-6 col-lg-3">
+            <section class="stat-card">
+              <p class="stat-label">Unresolved</p>
+              <p class="stat-number">60</p>
+            </section>
+          </article>
+
+          <article class="col-6 col-lg-3">
+            <section class="stat-card">
+              <p class="stat-label">Overdue</p>
+              <p class="stat-number">16</p>
+            </section>
+          </article>
+
+          <article class="col-6 col-lg-3">
+            <section class="stat-card">
+              <p class="stat-label">Open</p>
+              <p class="stat-number">43</p>
+            </section>
+          </article>
+
+          <article class="col-6 col-lg-3">
+            <section class="stat-card">
+              <p class="stat-label">On hold</p>
+              <p class="stat-number">64</p>
+            </section>
+          </article>
+
+        </section>
+
+        <section class="row g-3 mb-4" aria-label="Trends and statistics">
+
+          <article class="col-12 col-lg-8">
+            <section class="card-panel">
+
+              <header class="panel-header">
+                <hgroup>
+                  <h2 class="panel-title">Today's trends</h2>
+                  <p class="trends-date">as of 25 May 2019, 09:41 PM</p>
+                </hgroup>
+                <nav class="legend" aria-label="Chart legend">
+                  <span class="legend-item">
+                    <span class="legend-line legend-line--today" aria-hidden="true"></span>Today
+                  </span>
+                  <span class="legend-item">
+                    <span class="legend-line legend-line--yesterday" aria-hidden="true"></span>Yesterday
+                  </span>
+                </nav>
+              </header>
+
+              <figure class="chart-wrap">
+                <img
+                  src="assets/image/Screenshot 2026-03-13 210722.png"
+                  alt="Today's trends chart showing ticket volume by day of week"
+                  class="chart-img"
+                />
+              </figure>
+
+            </section>
+          </article>
+
+          <article class="col-12 col-lg-4">
+            <section class="card-panel stats-panel">
+              <section class="stats-row">
+                <p class="stat-mini-label">Resolved</p>
+                <p class="stat-mini-number">449</p>
+              </section>
+              <section class="stats-row">
+                <p class="stat-mini-label">Received</p>
+                <p class="stat-mini-number">426</p>
+              </section>
+              <section class="stats-row">
+                <p class="stat-mini-label">Average first response time</p>
+                <p class="stat-mini-number">33m</p>
+              </section>
+              <section class="stats-row">
+                <p class="stat-mini-label">Average response time</p>
+                <p class="stat-mini-number">3h 8m</p>
+              </section>
+              <section class="stats-row stats-row--last">
+                <p class="stat-mini-label">Resolution within SLA</p>
+                <p class="stat-mini-number">94%</p>
+              </section>
+            </section>
+          </article>
+
+        </section>
+
+        <section class="row g-3" aria-label="Tickets and tasks">
+
+          <article class="col-12 col-lg-6">
+            <section class="card-panel">
+
+              <header class="panel-header">
+                <hgroup>
+                  <h2 class="panel-title">Unresolved tickets</h2>
+                  <p class="panel-subtitle">Group: <strong>Support</strong></p>
+                </hgroup>
+                <a href="#" class="view-link">View details</a>
+              </header>
+
+              <table class="table tickets-table mb-0">
+                <tbody>
+                  <tr>
+                    <td>Waiting on Feature Request</td>
+                    <td class="text-end ticket-count">4238</td>
+                  </tr>
+                  <tr>
+                    <td>Awaiting Customer Response</td>
+                    <td class="text-end ticket-count">1005</td>
+                  </tr>
+                  <tr>
+                    <td>Awaiting Developer Fix</td>
+                    <td class="text-end ticket-count">914</td>
+                  </tr>
+                  <tr>
+                    <td class="border-0">Pending</td>
+                    <td class="text-end ticket-count border-0">281</td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </section>
+          </article>
+
+          <article class="col-12 col-lg-6">
+            <section class="card-panel">
+
+              <header class="panel-header">
+                <hgroup>
+                  <h2 class="panel-title">Tasks</h2>
+                  <p class="panel-subtitle">Today</p>
+                </hgroup>
+                <a href="#" class="view-link">View all</a>
+              </header>
+
+              <p class="new-task-placeholder">
+                <span>Create new task</span>
+                <span class="plus-icon">+</span>
+              </p>
+
+              <ul class="task-list list-unstyled mb-0">
+
+                <li class="task-item">
+                  <label class="task-label-wrap">
+                    <input class="task-check form-check-input" type="checkbox" />
+                    <span class="task-label">Finish ticket update</span>
+                  </label>
+                  <span class="task-badge badge-urgent">URGENT</span>
+                </li>
+
+                <li class="task-item">
+                  <label class="task-label-wrap">
+                    <input class="task-check form-check-input" type="checkbox" />
+                    <span class="task-label">Create new ticket example</span>
+                  </label>
+                  <span class="task-badge badge-new">NEW</span>
+                </li>
+
+                <li class="task-item">
+                  <label class="task-label-wrap">
+                    <input class="task-check form-check-input" type="checkbox" checked />
+                    <span class="task-label task-done">Update ticket report</span>
+                  </label>
+                  <span class="task-badge badge-default">DEFAULT</span>
+                </li>
+
+              </ul>
+
+            </section>
+          </article>
+
+        </section>
+
+      </main>
+    </section>
+
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

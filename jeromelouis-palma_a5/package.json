@@ -1,0 +1,20 @@
+{
+  "name": "jl",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "watch:css": "sass --watch boots/src/stylesheet.scss:spring/assets/css/style.css",
+    "serve": "lite-server --baseDir=spring",
+    "dev": "concurrently \"npm run watch:css\" \"npm run serve\"",
+    "start": "concurrently \"npm run watch:css\" \"npm run serve\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "lite-server": "^2.6.1",
+    "sass": "^1.98.0"
+  }
+}
